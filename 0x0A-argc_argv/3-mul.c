@@ -11,8 +11,8 @@ int _atoi(char *s)
 	int i, d, n, len, f, digit;
 
 	i = 0;
-	d = 0;	
-	n = 0;	
+	d = 0;
+	n = 0;
 	len = 0;
 	f = 0;
 	digit = 0;
@@ -59,7 +59,7 @@ int _atoi(char *s)
 	return (n);
 }
 
-/**		
+/**
  * main - multiplies two numbers
  * @argc: number of arguments
  * @argv: array of arguments
@@ -89,6 +89,6 @@ int main(int argc, char *argv[])
 	result = num1 * num2;
 
 	printf("%d\n", result);
-		
+
 	return (0);
 }
